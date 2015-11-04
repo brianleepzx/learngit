@@ -1,5 +1,3 @@
-
-def foo():
     a= {1,2}
     fun1(a.union({3}))
     print(a)
