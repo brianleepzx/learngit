@@ -1,5 +1,5 @@
 
-def fun():
+def foo():
     a= {1,2}
     fun1(a.union({3}))
     print(a)
@@ -7,4 +7,4 @@ def fun():
 
 def fun1(a):
     a.add(3)
-fun()
+foo()
